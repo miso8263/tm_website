@@ -1,0 +1,47 @@
+body {
+	font-family: arial;
+	color: #665544;
+	padding: 10px;
+	text-align: center;
+	}
+a:link {
+	color: #665544;
+	}
+a:visited{
+	color: #665544;
+	}
+a:hover{
+	color: #665544;
+	}
+a:active{
+	color: #665544;
+	}
+#nav {
+	background-color: #FFE4E1;
+	height: 60px;
+	}
+#header {
+	background-image: url("images/header.png");
+	height: 220px;
+	}
+#footer {
+	background-color: #FFE4E1;
+	height: 60px;
+	clear: both;
+	}
+.grid300 {
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+.round {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+    }
