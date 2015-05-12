@@ -32,6 +32,9 @@ body {
 	width: 60%;
 	margin: 1.5%;
 }
+ul.navl {
+	background-color: #FFE4E1;
+}
 
 ul.navl li {
 	display: inline-block;
