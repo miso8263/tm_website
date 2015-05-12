@@ -3,25 +3,16 @@ body {
 	color: #665544;
 	padding: 10px;
 	text-align: center;
+	background-color: #F0F0F0;
 	}
-a:link {
-	color: #665544;
-	}
-a:visited{
-	color: #665544;
-	}
-a:hover{
-	color: #665544;
-	}
-a:active{
-	color: #665544;
-	}
+
 #nav {
 	background-color: #FFE4E1;
 	height: 60px;
+	font-size:x-large;
 	}
 #header {
-	background-image: url("images/header.png");
+	background-image: url("images/trevormichelle.jpg");
 	height: 220px;
 	}
 #footer {
@@ -29,19 +20,58 @@ a:active{
 	height: 60px;
 	clear: both;
 	}
+	
 .grid300 {
 	float: left;
 	width: 30%;
 	margin: 1.5%;
 }
 
-li {
-	display: inline;
-	padding: 5px;
+.grid600 {
+	float: left;
+	width: 60%;
+	margin: 1.5%;
 }
+
+ul.navl li {
+	display: inline-block;
+	width: 20%;
+	border: 2px solid #FBF8EF;
+}
+ul.navl li a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	text-decoration: none;
+}
+
+ul.navl li a:hover{
+	color: #FBF8EF;
+	background-color: #336633;
+}
+
 .round {
 	border-radius: 50%;
 	overflow: hidden;
 	width: 150px;
 	height: 150px;
-    }
+}
+
+img.bordered {
+	padding: 1px;
+	border: 20px solid #FBF8EF;
+}
+
+a:link {
+	color: #665544;
+	}
+a:visited{
+	color: #665544;
+	}
+a:hover{
+	color: #336633;
+	}
+a:active{
+	color: #665544;
+	}
