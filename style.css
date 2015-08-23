@@ -1,25 +1,43 @@
 body {
 	font-family: arial;
-	color: #665544;
 	padding: 10px;
 	text-align: center;
-	background-color: #F0F0F0;
+	background-color: #FEFEFE;
+	color: #0A1A08;
+	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
 	}
 
-#nav {
-	background-color: #FFE4E1;
+
+nav {
+	background-color: #d19b96;
 	height: 60px;
-	font-size:x-large;
-	}
-#header {
-	background-image: url("images/trevormichelle.jpg");
-	height: 220px;
-	}
+}
+
+nav > ul > li {
+	display:inline-block;
+}
+
+ nav > ul > li > a> button {
+	border-radius: 25%;
+	height: 40px;
+	width: 120px;
+	background-color: #9F4550;
+	color: #dac130;
+	margin:10px;
+ }
+ 
+  nav > ul > li > a> button:hover {
+	background-color: #401511;
+	color: #f1e369;
+	
+ }
+	
 #footer {
-	background-color: #FFE4E1;
+	background-color: #d19b96;
 	height: 60px;
 	clear: both;
 	}
+
 	
 .grid300 {
 	float: left;
@@ -32,27 +50,6 @@ body {
 	width: 60%;
 	margin: 1.5%;
 }
-ul.navl {
-	background-color: #FFE4E1;
-}
-
-ul.navl li {
-	display: inline-block;
-	width: 20%;
-	border: 2px solid #FBF8EF;
-}
-ul.navl li a {
-	display: block;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	width: 100%;
-	text-decoration: none;
-}
-
-ul.navl li a:hover{
-	color: #FBF8EF;
-	background-color: #336633;
-}
 
 .round {
 	border-radius: 50%;
@@ -62,19 +59,55 @@ ul.navl li a:hover{
 }
 
 img.bordered {
-	padding: 1px;
-	border: 20px solid #FBF8EF;
+	height:400px;
+	border: 20px solid #e6dba3;
 }
 
+img#faded{
+	opacity:0.3;
+}
+
+a {
+	cursor:pointer;
+	cursor:hand;
+}
 a:link {
-	color: #665544;
+	color: #43400C;
 	}
 a:visited{
-	color: #665544;
+	color: #43400C;
 	}
 a:hover{
-	color: #336633;
+	color: #0A1A08;
+
 	}
 a:active{
-	color: #665544;
+	color: #0A1A08;
 	}
+	
+@media only screen and (max-device-width: 480px) {
+  /* define mobile specific styles come here */
+  
+	nav {
+		background-color: #d19b96;
+		height: 20px;
+	}
+
+	nav > ul > li > a> button {
+		border-radius: 25%;
+		height: 10px;
+		background-color: #9F4550;
+		color: #dac130;
+	 }
+	 
+	.round {
+		border-radius: 50%;
+		overflow: hidden;
+		width: 50px;
+		height: 50px;
+	}
+	img.bordered {
+		width:200px;
+		border: 2px solid #e6dba3;
+	}
+}

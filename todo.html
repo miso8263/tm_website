@@ -4,42 +4,44 @@
   <head>
     <title>Trevor and Michelle</title>
 	<link href="style.css" type="text/css" rel="stylesheet" />
+	
   </head>
 
   <body>
 
     <!-- major block of links -->
-    <div id="nav">
-	  <ul class ="navl">
-        <li><a href=home.html>HOME PAGE</a></li>
-		<li><a href=info.html>INFORMATION</a></li>
-		<li><a href=todo.html>SF BAY AREA</a></li>
-		<li><a href=reg.html>OUR REGISTRY</a></li>
+    <nav>
+	  <ul>
+        <li><a href=home.html><button>HOME</button></a></li>
+		<li><a href=info.html><button>INFORMATION</button></a></li>
+		<li><a href=todo.html><button>SF BAY AREA</button></a></li>
+		<li><a href=reg.html><button>OUR REGISTRY</button></a></li>
 	  </ul>
-    </div>
+    </nav>
+	
 	
 	<div class = "top">
 		<div class="grid300">
 		<p>Things to do near Mission Santa Clara</p>
-		<h2>San Francisco, CA</h2>
-		<p>Our favorite places to visit are Fisherman's Wharf (Pier 39), Chinatown, and Alcatraz Island.  Make sure to stop for Blue Bottle Coffee at the Ferry Building!
-		<p>Train: Take <a href="http://www.caltrain.com/" target="_blank" alt="Caltrain">Caltrain</a> North from the Santa Clara station (across the street from the mission) and then catch <a href="http://www.sfmta.com/" target="_blank" alt="SF MUNI">MUNI</a>.</p>
-		<p>Driving: Take 101 North or 280 North (1 hour 10 minutes)</p>
-		<h2>Santa Clara, CA</h2>
-		<p>Visit <a href="https://www.cagreatamerica.com/" target="_blank" alt="California's Great America">Great America</a>, our local amusement park.  Our favorite rides are Flight Deck (formerly known as Top Gun) and The Grizzly (old fashioned wooden rollercoaster).
-		<p>(20 minutes north)</p>
-		<h2>San Jose, CA</h2>
-		<p>Visit the Tech Museum of Innovation or the San Jose Museum of Art in downtown San Jose.  Families with kids will also have fun at the Children's Discovery Museum and Happy Hollow Park and Zoo.</p>
-		<p>(5 minutes south)</p>
-		<h2>Santa Cruz, CA</h2>
-		<p>Visit the Santa Cruz Beach Boardwalk or take a hike through the redwoods in the Santa Cruz mountains.</p>
-		<p>Take 17 South (37 minutes)</p>
-		<h2>Gilroy, CA</h2>
-		<p>The "Garlic Capital of the World" grows a majority of the garlic in the U.S.  Gilroy is also home to a vegetable-themed park for kids, <a href="https://www.gilroygardens.org/" target="_blank" alt="Gilroy Gardens">Gilroy Gardens.</a></p>
-		<p>Take 101 South (41 minutes)</p>
-		<h2>Monterey, CA</h2>
-		<p>Monterey is a cute little beach town and home of the world-famous <a href="http://www.montereybayaquarium.org/" target="_blank" alt="Monterey Bay Aquarium">Monterey Bay Aquarium</a>.  Make sure to stop for clam chowder on Fisherman's Wharf.</p>
-		<p>Take 17 South to 1 South (1 hour 20 minutes)</p>
+		<p>Click the city to see details</p>
+		<h3><a onclick='sf()'>San Francisco, CA</a></h3>
+		<div class="location" id="SF">
+		</div>
+		<h3><a onclick='sc()'>Santa Clara, CA</a></h3>
+		<div class="location" id="SC">
+		</div>
+		<h3><a onclick='sj()'>San Jose, CA</a></h3>
+		<div class="location" id="SJ">
+		</div>
+		<h3><a onclick='scb()'>Santa Cruz, CA</a></h3>
+		<div class="location" id="SCB">
+		</div>
+		<h3><a onclick='g()'>Gilroy, CA</a></h3>
+		<div class="location" id="G">
+		</div>
+		<h3><a onclick='m()'>Monterey, CA</a></h3>
+		<div class="location" id="M">
+		</div>
 		</div>
 		
 		<div class="grid600">
@@ -47,14 +49,15 @@
 		</div>
 	</div>
 	
-	<div class = "middle">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d813193.8398618037!2d-121.81571718332792!3d37.23493060166701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcbac339a5b51%3A0x60d3f3248d1416e3!2sMISSION+SANTA+CLARA+DE+ASIS!5e0!3m2!1sen!2sus!4v1431466665040" width="600" height="450" frameborder="0" style="border:0"></iframe>
-	</div>
-
     <div id = "footer">
-        <p>&copy 2015</p>
+        <p>&copy 2015 Michelle Soult</p>
 	</div>
     
 
   </body>
 </html>
+
+
+<script type="text/javascript" src="functionality.js"></script>
+
+
