@@ -1,12 +1,20 @@
 body {
-	font-family: arial;
 	padding: 10px;
 	text-align: center;
 	background-color: #FEFEFE;
 	color: #0A1A08;
 	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
-	}
+}
 
+#preload-01 { background: url(images/trevormichelle.jpg) no-repeat -9999px -9999px; }
+#preload-02 { background: url(images/disneyland.jpg) no-repeat -9999px -9999px; }
+#preload-03 { background: url(images/trevormichelle2.jpg) no-repeat -9999px -9999px; }
+#preload-04 { background: url(images/russianriver.jpg) no-repeat -9999px -9999px; }
+#preload-05 { background: url(images/spacemountain.jpg) no-repeat -9999px -9999px; }
+#preload-06 { background: url(images/sierras.jpg) no-repeat -9999px -9999px; }
+#preload-09 { background: url(images/bigocean.jpg) no-repeat -9999px -9999px; }
+#preload-10 { background: url(images/bigmission.jpg) no-repeat -9999px -9999px; }
+#preload-11 { background: url(images/puppy.jpg) no-repeat -9999px -9999px; }
 
 nav {
 	background-color: #d19b96;
@@ -31,6 +39,11 @@ nav > ul > li {
 	color: #f1e369;
 	
  }
+ 
+   nav > ul > li > a> button#current {
+	background-color: #401511;
+	color: #f1e369;
+ }
 	
 #footer {
 	background-color: #d19b96;
@@ -43,6 +56,15 @@ nav > ul > li {
 	float: left;
 	width: 30%;
 	margin: 1.5%;
+}
+
+.middle {
+	clear:both;
+}
+
+div.middle > div.grid300 {
+	display: inline-block;
+	float: none;
 }
 
 .grid600 {
@@ -59,7 +81,7 @@ nav > ul > li {
 }
 
 img.bordered {
-	height:400px;
+	width:640px;
 	border: 20px solid #e6dba3;
 }
 
@@ -85,29 +107,38 @@ a:active{
 	color: #0A1A08;
 	}
 	
-@media only screen and (max-device-width: 480px) {
-  /* define mobile specific styles come here */
-  
-	nav {
-		background-color: #d19b96;
-		height: 20px;
+@media only screen and (max-device-width: 1024px) {
+  /* mobile & iPad styles */
+	body{
+		font-size:125%;
+	}
+	
+	.grid600 {
+		width: 100%;
+	}
+	
+	.grid300 {
+		width: 100%;
 	}
 
+	img.bordered{
+		max-width:90%;
+		border-width:2px;
+	}
+	
+	nav{
+		height: auto;
+	}
+		
 	nav > ul > li > a> button {
-		border-radius: 25%;
-		height: 10px;
-		background-color: #9F4550;
-		color: #dac130;
-	 }
-	 
+		height: auto;
+		width: auto;
+		margin: 0px;
+	}
+	
 	.round {
-		border-radius: 50%;
-		overflow: hidden;
-		width: 50px;
-		height: 50px;
+		width: 25%;
+		height: 25%;
 	}
-	img.bordered {
-		width:200px;
-		border: 2px solid #e6dba3;
-	}
+	
 }

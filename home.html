@@ -1,9 +1,11 @@
 
 <!DOCTYPE html>
+<!-- Copyright 2015 Michelle Soult -->
 <html lang="en">
   <head>
     <title>Trevor and Michelle</title>
 	<link href="style.css" type="text/css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width">
   </head>
 
   <body>
@@ -11,8 +13,9 @@
     <!-- major block of links -->
     <nav>
 	  <ul>
-        <li><a href=home.html><button>HOME</button></a></li>
-		<li><a href=info.html><button>INFORMATION</button></a></li>
+        <li><a href=home.html><button id="current">HOME</button></a></li>
+		<li><a href=info.html><button>LOCATION</button></a></li>
+		<li><a href=travel.html><button>TRAVEL INFO</button></a></li>
 		<li><a href=todo.html><button>SF BAY AREA</button></a></li>
 		<li><a href=reg.html><button>OUR REGISTRY</button></a></li>
 	  </ul>
@@ -24,9 +27,14 @@
 		<p>Trevor and Michelle are getting married in Fall 2016.</p>
 		<p>Go to the <a href=info.html>information</a> page and check your mail for more details!</p>
 		
+		<h2>Our Story</h2>
+		<p>We met through eHarmony in Fall 2011 and despite Trevor's having wisdom tooth surgery and going off the grid for weeks, we decided to meet in person. We went bowling and haven't been bowling since (Trevor won).  At the time, Michelle was living in Wyoming so we began a long-distance relationship.  Michelle moved "closer" in 2012 and we took turns driving over the Rocky Mountains to visit each other.  After two years of short-distance relationship bliss, Michelle moved away for grad school.</p>
+		<p>Our accomplishments as a couple include hiking to the Black Falls in Iceland, eating at every reasonably-priced restaurant in Aspen, beating at least 5 co-op videogames, snowshoeing to Brainard Lake, surviving double food poisoning with one bathroom, and raising a puppy into a somewhat well-adjusted and socialized dog.</p>
+		<p>We are looking forward to everything the next phase of our relationship will bring!</p>
+		
 		</div>
 		<div class="grid600">
-		<img src="images/trevormichelle.jpg" alt="Trevor and Michelle" class="bordered">
+		<img src="images/trevormichelle.jpg" alt="Trevor and Michelle" class="bordered" id="slider">
 		</div>
 	</div>
 	
@@ -55,3 +63,6 @@
 
   </body>
 </html>
+
+
+<script type="text/javascript" src="homefunctions.js"></script>
