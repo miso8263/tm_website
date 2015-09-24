@@ -18,7 +18,7 @@ function sf(){
 
 function sc(){
 	if(!press2){
-		document.getElementById('SC').innerHTML = "<p>Visit <a href=\"https://www.cagreatamerica.com/\" target=\"_blank\" alt=\"California's Great America\">Great America</a>, our local amusement park.  Our favorite rides are Flight Deck (formerly known as Top Gun) and The Grizzly (old fashioned wooden rollercoaster).<p>(20 minutes north)</p>";
+		document.getElementById('SC').innerHTML = "<p>Visit <a href=\"https://www.cagreatamerica.com/\" target=\"_blank\" alt=\"California's Great America\">Great America</a>, our local amusement park.  Our favorite rides are Flight Deck (formerly known as Top Gun) and The Grizzly (old fashioned wooden rollercoaster).<p>You can also visit Levi's Stadium (where the 49ers play).  There won't be a game during the wedding but the <a href=\"http://www.levisstadium.com/49ers-museum/visit-the-museum/\">49ers museum</a> is open from 10-5 most days.</p>";
 		press2 = true;
 		}
 	else{
@@ -29,7 +29,7 @@ function sc(){
 
 function sj(){
 	if(!press3){
-		document.getElementById('SJ').innerHTML = "<p>Visit the Tech Museum of Innovation or the San Jose Museum of Art in downtown San Jose.  Families with kids will also have fun at the Children's Discovery Museum and Happy Hollow Park and Zoo.</p><p>(5 minutes south)</p>";
+		document.getElementById('SJ').innerHTML = "<p>Visit the Tech Museum of Innovation or the San Jose Museum of Art in downtown San Jose.</p>  <p>A little further west is the <a href=\"http://www.winchestermysteryhouse.com\">Winchester Mystery House</a> if you love creepy Victorian mansions.</p> <p>Families with kids will also have fun at the Children's Discovery Museum and Happy Hollow Park and Zoo.</p><p>(20 minutes south)</p>";
 		press3 = true;
 		}
 	else{
