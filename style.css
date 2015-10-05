@@ -85,6 +85,11 @@ img.bordered {
 	border: 20px solid #e6dba3;
 }
 
+iframe{
+	width:640px;
+	height:480px;
+}
+
 img#faded{
 	opacity:0.3;
 }
@@ -124,6 +129,10 @@ a:active{
 	img.bordered{
 		max-width:90%;
 		border-width:2px;
+	}
+	
+	iframe{
+		max-width: 90%;
 	}
 	
 	nav{
