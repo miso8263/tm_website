@@ -93,6 +93,15 @@ iframe{
 img#faded{
 	opacity:0.3;
 }
+.item{
+	height:250px;
+}
+
+img.iti{
+	float:left;
+	width:20%;
+	height:200px;
+}
 
 a {
 	cursor:pointer;
